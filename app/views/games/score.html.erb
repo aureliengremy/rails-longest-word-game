@@ -1,0 +1,12 @@
+<h1>Result</h1>
+<div class="score-container">
+  <h2>
+    <%= @word %>
+  </h2>
+  <div class="result">
+    <%= @score %>
+    <% if @win %>
+      <h2>YOU WIN !!!</h2>
+    <% end %>
+  </div>
+</div>
